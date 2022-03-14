@@ -18,6 +18,7 @@ typedef struct format
 	int (*f)(va_list);
 } spec_t;
 
+int space(const char *format, int f_i);
 int _printf(const char *format, ...);
 int _putchar(char c);
 int(*get_spec_func(char spec))(va_list);
