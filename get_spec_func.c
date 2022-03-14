@@ -10,7 +10,7 @@ int (*get_spec_func(char spec))(va_list)
 {
 	int i;
 
-	spec_t type[] = { 
+	spec_t type[] = {
 		{"c", print_char},
 		{"%", print_percent},
 		{"i", print_integer},
