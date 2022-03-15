@@ -6,6 +6,7 @@
 #include <stdarg.h>
 #include <unistd.h>
 
+
 int print_decimal(va_list args);
 int print_string(va_list args);
 int print_integer(va_list args);
@@ -26,5 +27,6 @@ typedef struct format
 	char *sym;
 	int (*f)(va_list);
 } spec_t;
+
 
 #endif
