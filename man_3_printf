@@ -3,7 +3,7 @@ man_3_printf               Linux Programmer's Manual              man_3_printf
             {This Project Made By Aymen Jebeniani & Med Ahmed Zghal}
 
 NAME :         
-      _printf
+      _printf()
 
 SYNOPSIS :
        To use this function the #include "main.h" header is required.
