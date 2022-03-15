@@ -4,7 +4,7 @@
  * _printf - Prints a formatted string.
  * @format: Arguments passed to program.
  *
- * Return: Length of string.
+ * Return: Length of string
  */
 
 int _printf(const char *format, ...)
