@@ -3,8 +3,7 @@
 /**
  * print_string - prints argument of type char *
  * @args: argument to print
- *
- * Return: number of characters printed
+ * Return: number of characters printed.
  */
 
 int print_string(va_list args)
