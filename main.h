@@ -15,10 +15,6 @@ int space(const char *format, int f_i);
 int _printf(const char *format, ...);
 int _putchar(char c);
 int (*get_spec_func(char spec))(va_list);
-char *_strrev (char *str);
-char * _itoa(int i, char *strout, int base);
-
-
 
 /**
 * struct format - Struct spec_t.
