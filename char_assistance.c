@@ -21,7 +21,7 @@ int print_char(va_list args)
  * print_percent - prints percent sign
  * @args: percent sign
  *
- * Return: number of character printed
+ * Return: number of character printed.
  */
 
 int print_percent(va_list __attribute__((unused)) args)
