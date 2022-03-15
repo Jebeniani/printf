@@ -10,8 +10,10 @@ _printf() is a function that do formatted printing to the standard output stream
 
  # Conversion specifiers
 
-%c: Specifies a single-byte character.
 %s: Specifies a single-byte or multi-byte character string.
+
+%c: Specifies a single-byte character.
+
 %i, %d: Signed decimal integer.
 
 # Usage
