@@ -3,7 +3,7 @@
 /**
  * get_spec_func - identifiers correct print function using specifier character
  * @spec: specifier character
- * Return: function
+ * Return: function.
  */
 
 int (*get_spec_func(char spec))(va_list)
